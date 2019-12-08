@@ -11,7 +11,8 @@ end
 def turtle_traits(turtles)
   turtles.map do |turtle|
     turtle[:traits].each do |trait|
-      trait
+      trait[:traits].map do |all|
+      end
     end
   end
 end
