@@ -9,7 +9,7 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  turtles.map do |turtle|
+  turtles.map_with_index do |turtle, index|
     turtle[:traits].each do |trait|
 
     end
