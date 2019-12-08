@@ -9,10 +9,9 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  new_array = []
   turtles.map do |turtle|
-    turtle[:traits].map do |trait|
-      trait
+    turtle[:traits].each do |trait|
+      trait.to_s
     end
   end
 end
