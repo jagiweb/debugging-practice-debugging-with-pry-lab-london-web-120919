@@ -13,7 +13,6 @@ def turtle_traits(turtles)
   turtles.map do |turtle|
     turtle[:traits].each do |trait|
       array << trait
-      end
     end
   end
 end
